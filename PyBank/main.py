@@ -5,7 +5,6 @@ import csv
 #set path for csv file to be read 
 budgetData_csv = os.path.join('Resources', 'budget_data.csv')
 
-
 #open csv
 with open(budgetData_csv) as csv_file:
    
