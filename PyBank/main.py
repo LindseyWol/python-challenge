@@ -66,10 +66,10 @@ with open(budgetData_csv) as csv_file:
     print(f"----------------------------")
 
 #write 'Financial Analysis' to a txt file in 'Analysis' folder
-#set path so analysis file goes to 'Analysis' folder
-financial_analysis = "Analysis/Financial Analysis.txt"
+# set path for txt doc to go to Analysis folder
+financial_analysis_txt = "Analysis/Financial Analysis.txt"
 
-with open(financial_analysis, "w") as text:
+with open(financial_analysis_txt, "w") as text:
     text.write(f"Financial Analysis\n")
     text.write(f"----------------------------\n")
     text.write(f"Total Months: {month_count}\n")
